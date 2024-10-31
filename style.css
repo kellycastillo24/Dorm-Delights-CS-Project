@@ -1,0 +1,33 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f8ff;
+    color: #333;
+}
+
+header, footer {
+    text-align: center;
+    padding: 20px;
+}
+
+h1, h2, h3, h4 {
+    color: #006699;
+}
+
+button {
+    background-color: #006699;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #004466;
+}
+
+.recipe img {
+    width: 100px;
+    height: auto;
+    margin: 10px;
+}
