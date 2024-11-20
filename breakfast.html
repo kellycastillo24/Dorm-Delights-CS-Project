@@ -3,66 +3,127 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Breakfast Recipes - Dorm Delights</title>
+    <title>Breakfast Recipes</title>
     <style>
         body {
             font-family: Arial, sans-serif;
-            background-color: #fff5e1;
+            background-color: #fde8cd;
             color: #333;
+            padding: 20px;
         }
-        h1, h2 {
-            color: #FF6347;
+        h1 {
+            text-align: center;
+            color: #d35400;
         }
         .recipe {
-            border: 1px solid #ccc;
-            padding: 20px;
+            border: 1px solid #e67e22;
+            border-radius: 10px;
             margin: 20px 0;
-            background-color: #ffffff;
+            padding: 15px;
+            background-color: #fff;
         }
-        img {
-            width: 200px;
-            height: auto;
+        .recipe img {
+            max-width: 100%;
+            border-radius: 10px;
+            margin-bottom: 10px;
+        }
+        .recipe h2 {
+            color: #e67e22;
+        }
+        .ingredients {
+            margin-top: 10px;
+        }
+        .ingredients ul {
+            margin-left: 20px;
         }
     </style>
 </head>
 <body>
     <h1>Breakfast Recipes</h1>
-
+    
+    <!-- Recipe 1 -->
     <div class="recipe">
-        <h3>Almond Vanilla Yogurt Parfaits</h3>
-        <img src="yogurt_parfait.jpg" alt="Almond Vanilla Yogurt Parfaits">
-        <p><strong>Ingredients:</strong> Yogurt, almonds, vanilla extract, honey, berries</p>
-        <p><strong>Nutrition:</strong> 150 calories per serving</p>
+        <img src="almond_vanilla_yogurt_parfait.jpg" alt="Almond Vanilla Yogurt Parfait">
+        <h2>Almond Vanilla Yogurt Parfait</h2>
+        <div class="ingredients">
+            <h3>Ingredients:</h3>
+            <ul>
+                <li>1 cup vanilla yogurt</li>
+                <li>1/4 cup granola</li>
+                <li>1/4 cup almonds</li>
+                <li>Fresh berries for topping</li>
+            </ul>
+        </div>
     </div>
 
+    <!-- Recipe 2 -->
     <div class="recipe">
-        <h3>Cuban Breakfast Sandwich</h3>
-        <img src="cuban_sandwich.jpg" alt="Cuban Breakfast Sandwich">
-        <p><strong>Ingredients:</strong> Bread, eggs, ham, Swiss cheese, pickles, mustard</p>
-        <p><strong>Nutrition:</strong> 320 calories per serving</p>
+        <img src="cuban_breakfast_sandwich.jpg" alt="Cuban Breakfast Sandwich">
+        <h2>Cuban Breakfast Sandwich</h2>
+        <div class="ingredients">
+            <h3>Ingredients:</h3>
+            <ul>
+                <li>2 slices of Cuban bread</li>
+                <li>1 egg, scrambled</li>
+                <li>2 slices of ham</li>
+                <li>2 slices of Swiss cheese</li>
+                <li>Butter for grilling</li>
+            </ul>
+        </div>
     </div>
 
+    <!-- Recipe 3 -->
     <div class="recipe">
-        <h3>Ham and Swiss Omelet</h3>
         <img src="ham_swiss_omelet.jpg" alt="Ham and Swiss Omelet">
-        <p><strong>Ingredients:</strong> Eggs, ham, Swiss cheese, salt, pepper</p>
-        <p><strong>Nutrition:</strong> 250 calories per serving</p>
+        <h2>Ham and Swiss Omelet</h2>
+        <div class="ingredients">
+            <h3>Ingredients:</h3>
+            <ul>
+                <li>2 eggs</li>
+                <li>1/4 cup diced ham</li>
+                <li>1/4 cup shredded Swiss cheese</li>
+                <li>1 tablespoon butter</li>
+                <li>Salt and pepper to taste</li>
+            </ul>
+        </div>
     </div>
 
+    <!-- Recipe 4 -->
     <div class="recipe">
-        <h3>Spinach Mushroom Scrambled Eggs</h3>
-        <img src="spinach_mushroom_eggs.jpg" alt="Spinach Mushroom Scrambled Eggs">
-        <p><strong>Ingredients:</strong> Eggs, spinach, mushrooms, butter, salt, pepper</p>
-        <p><strong>Nutrition:</strong> 200 calories per serving</p>
+        <img src="spinach_mushroom_eggs.jpg" alt="Spinach Mushroom with Scrambled Eggs">
+        <h2>Spinach Mushroom with Scrambled Eggs</h2>
+        <div class="ingredients">
+            <h3>Ingredients:</h3>
+            <ul>
+                <li>2 eggs</li>
+                <li>1/4 cup spinach, chopped</li>
+                <li>1/4 cup mushrooms, diced</li>
+                <li>1 tablespoon olive oil</li>
+                <li>Salt and pepper to taste</li>
+            </ul>
+        </div>
     </div>
 
+    <!-- Recipe 5 -->
     <div class="recipe">
-        <h3>Gingerbread Pancakes</h3>
         <img src="gingerbread_pancakes.jpg" alt="Gingerbread Pancakes">
-        <p><strong>Ingredients:</strong> Flour, ginger, cinnamon, milk, eggs, sugar</p>
-        <p><strong>Nutrition:</strong> 350 calories per serving</p>
+        <h2>Gingerbread Pancakes</h2>
+        <div class="ingredients">
+            <h3>Ingredients:</h3>
+            <ul>
+                <li>1 cup all-purpose flour</li>
+                <li>1 teaspoon ground ginger</li>
+                <li>1 teaspoon cinnamon</li>
+                <li>1 tablespoon molasses</li>
+                <li>1 cup milk</li>
+                <li>1 egg</li>
+                <li>1 tablespoon butter, melted</li>
+                <li>1 teaspoon baking powder</li>
+            </ul>
+        </div>
     </div>
-
-    <a href="index.html">Back to Home</a>
+    <div class="back-home">
+        <a href="index.html">Back Home</a>
+    </div>
 </body>
 </html>
