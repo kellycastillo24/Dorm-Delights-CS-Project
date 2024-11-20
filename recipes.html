@@ -3,77 +3,41 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Welcome to Dorm Delights</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #f9f3e6;
-            color: #333;
-            text-align: center;
-            padding: 20px;
-        }
-        h1 {
-            color: #FF6347;
-        }
-        p {
-            font-size: 1.2em;
-            margin: 20px 0;
-        }
-        .button {
-            background-color: #FF6347;
-            color: #fff;
-            padding: 15px 10px;
-            font-size: 1.2em;
-            text-decoration: none;
-            border-radius: 5px;
-            transition: background-color 0.3s;
-        }
-        .button:hover {
-            background-color: #e55337;
-        }
-        .categories {
-            display: flex;
-            justify-content: center;
-            margin-top: 30px;
-        }
-        .category {
-            margin: 0 15px;
-            padding: 20px;
-            border: 1px solid #FF6347;
-            border-radius: 8px;
-            background-color: #ffffff;
-            width: 200px;
-        }
-    </style>
+    <title>Recipes - Dorm Delights</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-
-    <h1>Welcome to Dorm Delights!</h1>
-    <p>Your go-to resource for delicious, healthy recipes tailored for college students with various dietary needs.</p>
-    
-    <div class="categories">
-        <div class="category">
-            <h2>Breakfast</h2>
-            <p>Start your day right with our nutritious breakfast recipes.</p>
-            <a href="breakfast.html" class="button">Explore Breakfast</a>
-        </div>
-        <div class="category">
-            <h2>Lunch</h2>
-            <p>Fuel your afternoon with satisfying and easy-to-make lunches.</p>
-            <a href="lunch.html" class="button">Explore Lunch</a>
-        </div>
-        <div class="category">
-            <h2>Dinner</h2>
-            <p>End your day with delicious dinner options for every palate.</p>
-            <a href="dinner.html" class="button">Explore Dinner</a>
-        </div>
+    <!-- Back Home Bar -->
+    <div class="back-home">
+        <a href="index.html">← Back Home</a>
     </div>
 
-    <div style="margin-top: 40px;">
-        <h2>Rate Our Recipes!</h2>
-        <p>Help us improve by sharing your thoughts on our recipes.</p>
-        <a href="rating.html" class="button">Rate Recipes</a>
+    <header>
+        <h1>Dorm Delights Recipes</h1>
+    </header>
+
+    <!-- Search Bar -->
+    <div class="search-container">
+        <input type="text" id="search-bar" placeholder="Search for recipes...">
+        <button type="submit" id="search-btn">Search</button>
     </div>
 
+    <main>
+        <h2>Explore Our Recipes</h2>
+        <p>Select a category to find delicious and easy-to-make recipes!</p>
+
+        <div class="nav">
+            <a href="breakfast.html">Breakfast Recipes</a>
+            <a href="lunch.html">Lunch Recipes</a>
+            <a href="dinner.html">Dinner Recipes</a>
+            <a href="snacks.html">Snack Recipes</a>
+        </div>
+    </main>
+    <div class="back-home">
+        <a href="index.html">Back Home</a>
+    </div>
+    <footer>
+        <p>&copy; 2024 Dorm Delights. All rights reserved.</p>
+    </footer>
 </body>
 </html>
