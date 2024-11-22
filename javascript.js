@@ -5,6 +5,9 @@ console.log(homePage);
 let text = "Explore healthy and easy recipies for college students.";
 console.log(text);
 
+let fourCatogories = true;
+console.log("Four categories of recipes");
+
 let search = "Search Recipes..";
 console.log(search);
 
