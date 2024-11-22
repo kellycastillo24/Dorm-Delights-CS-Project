@@ -1,5 +1,5 @@
 // home page
-let homePage = "Welcome to the DormDelights team!";
+let homePage = "Welcome to the DormDelights!";
 console.log(homePage);
 
 let text = "Explore healthy and easy recipies for college students.";
