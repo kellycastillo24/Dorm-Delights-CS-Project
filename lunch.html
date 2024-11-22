@@ -22,10 +22,9 @@
             padding: 15px;
             background-color: #fff;
         }
-        .recipe img {
-            max-width: 100%;
-            border-radius: 10px;
-            margin-bottom: 10px;
+        img {
+            width: 200px;
+            height: auto;
         }
         .recipe h2 {
             color: #5f9ea0;
@@ -36,6 +35,25 @@
         .ingredients ul {
             margin-left: 20px;
         }
+         button {
+           
+            margin-top: 15px;
+            padding: 10px 20px;
+            font-size: 1em;
+            background-color: #FF6347;
+            color: #fff;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+        button:hover {
+            background-color: #e55337;
+        }
+        .button-container{
+            text-align:right;
+            margin-top:20px;
+        }
     </style>
 </head>
 <body>
@@ -43,7 +61,7 @@
     
     <!-- Recipe 1 -->
     <div class="recipe">
-        <img src="quinoa_salad.jpg" alt="Quinoa Salad">
+        <img src="Lunch Images/Quinoa Salad.jpg" alt="Quinoa Salad">
         <h2>Quinoa Salad</h2>
         <div class="ingredients">
             <h3>Ingredients:</h3>
@@ -61,7 +79,7 @@
 
     <!-- Recipe 2 -->
     <div class="recipe">
-        <img src="cajun_chicken_pasta.jpg" alt="Creamy Cajun-Style Chicken Pasta">
+        <img src="Lunch Images/Creamy Cajun.jpg" alt="Creamy Cajun-Style Chicken Pasta">
         <h2>Creamy Cajun-Style Chicken Pasta</h2>
         <div class="ingredients">
             <h3>Ingredients:</h3>
@@ -79,7 +97,7 @@
 
     <!-- Recipe 3 -->
     <div class="recipe">
-        <img src="chicken_pesto_wrap.jpg" alt="Chicken Pesto Wrap">
+        <img src="Lunch Images/Chicken Pesto.jpg" alt="Chicken Pesto Wrap">
         <h2>Chicken Pesto Wrap</h2>
         <div class="ingredients">
             <h3>Ingredients:</h3>
@@ -95,7 +113,7 @@
 
     <!-- Recipe 4 -->
     <div class="recipe">
-        <img src="steak_bruschetta_salad.jpg" alt="Grilled Steak Bruschetta Salad">
+        <img src="Lunch Images/Grilled Bruschetta.jpg" alt="Grilled Steak Bruschetta Salad">
         <h2>Grilled Steak Bruschetta Salad</h2>
         <div class="ingredients">
             <h3>Ingredients:</h3>
@@ -111,7 +129,7 @@
 
     <!-- Recipe 5 -->
     <div class="recipe">
-        <img src="sloppy_joes.jpg" alt="Quick Tangy Sloppy Joes">
+        <img src="Lunch Images/Sloppy Joes.png" alt="Quick Tangy Sloppy Joes">
         <h2>Quick Tangy Sloppy Joes</h2>
         <div class="ingredients">
             <h3>Ingredients:</h3>
@@ -125,6 +143,12 @@
             </ul>
         </div>
     </div>
+
+    <div class ="button-container"></divlass>
+        <a href="dinner.html" class="button">Next</a>
+        <a href="breakfast.html" class="button">Back</a>
+    </div>
+
     <div class="back-home">
         <a href="index.html">Back Home</a>
     </div>

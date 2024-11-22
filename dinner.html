@@ -22,11 +22,12 @@
             padding: 15px;
             background-color: #fff;
         }
-        .recipe img {
-            max-width: 100%;
-            border-radius: 10px;
-            margin-bottom: 10px;
+
+        img {
+            width: 200px;
+            height: auto;
         }
+   
         .recipe h2 {
             color: #f08080;
         }
@@ -36,6 +37,25 @@
         .ingredients ul {
             margin-left: 20px;
         }
+        button {
+           text-align: right;
+            margin-top: 15px;
+            padding: 10px 20px;
+            font-size: 1em;
+            background-color: #FF6347;
+            color: #fff;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+        button:hover {
+            background-color: #e55337;
+        }
+        .button-container{
+            text-align:right;
+            margin-top:20px;
+        }
     </style>
 </head>
 <body>
@@ -43,7 +63,7 @@
     
     <!-- Recipe 1 -->
     <div class="recipe">
-        <img src="grilled_chicken_satay.jpg" alt="Grilled Chicken with Sunflower Seed Satay Sauce">
+        <img src="Dinner Images/Grilled Chicken Sunflower.jpg" alt="Grilled Chicken with Sunflower Seed Satay Sauce">
         <h2>Grilled Chicken with Sunflower Seed Satay Sauce</h2>
         <div class="ingredients">
             <h3>Ingredients:</h3>
@@ -60,7 +80,7 @@
 
     <!-- Recipe 2 -->
     <div class="recipe">
-        <img src="chicken_lettuce_wraps.jpg" alt="Chicken Lettuce Wraps">
+        <img src="Dinner Images/Chicken Lettute Wrap.jpg" alt="Chicken Lettuce Wraps">
         <h2>Chicken Lettuce Wraps</h2>
         <div class="ingredients">
             <h3>Ingredients:</h3>
@@ -77,7 +97,7 @@
 
     <!-- Recipe 3 -->
     <div class="recipe">
-        <img src="sheet_pan_soy_ginger_salmon.jpg" alt="Sheet Pan Soy Ginger Salmon">
+        <img src="Dinner Images/Sheet Pan Salmon.jpg" alt="Sheet Pan Soy Ginger Salmon">
         <h2>Sheet Pan Soy Ginger Salmon</h2>
         <div class="ingredients">
             <h3>Ingredients:</h3>
@@ -94,7 +114,7 @@
 
     <!-- Recipe 4 -->
     <div class="recipe">
-        <img src="pot_roast_black_bean.jpg" alt="Pot Roast with Asian Black Bean Sauce">
+        <img src="Dinner Images/Pot Roast.jpg" alt="Pot Roast with Asian Black Bean Sauce">
         <h2>Pot Roast with Asian Black Bean Sauce</h2>
         <div class="ingredients">
             <h3>Ingredients:</h3>
@@ -111,7 +131,7 @@
 
     <!-- Recipe 5 -->
     <div class="recipe">
-        <img src="peanutty_noodle_salad.jpg" alt="Peanutty Edamame and Noodle Salad">
+        <img src="Dinner Images/Peanutty Edamame.jpg" alt="Peanutty Edamame and Noodle Salad">
         <h2>Peanutty Edamame and Noodle Salad</h2>
         <div class="ingredients">
             <h3>Ingredients:</h3>
@@ -124,6 +144,10 @@
                 <li>1 teaspoon grated ginger</li>
             </ul>
         </div>
+    </div>
+    <div class ="button-container"></divlass>
+        <a href="snacks.html" class="button">Next</a>
+        <a href="lunch.html" class="button">Back</a>
     </div>
     <div class="back-home">
         <a href="index.html">Back Home</a>

@@ -22,10 +22,9 @@
             padding: 15px;
             background-color: #fff;
         }
-        .recipe img {
-            max-width: 100%;
-            border-radius: 10px;
-            margin-bottom: 10px;
+        img {
+            width: 200px;
+            height: auto;
         }
         .recipe h2 {
             color: #e67e22;
@@ -36,14 +35,35 @@
         .ingredients ul {
             margin-left: 20px;
         }
+
+        button {
+           text-align: right;
+            margin-top: 15px;
+            padding: 10px 20px;
+            font-size: 1em;
+            background-color: #FF6347;
+            color: #fff;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+        button:hover {
+            background-color: #e55337;
+        }
+        .button-container{
+            text-align:right;
+            margin-top:20px;
+        }
     </style>
 </head>
 <body>
+   
     <h1>Breakfast Recipes</h1>
     
     <!-- Recipe 1 -->
     <div class="recipe">
-        <img src="almond_vanilla_yogurt_parfait.jpg" alt="Almond Vanilla Yogurt Parfait">
+        <img src="Breakfast Images/Almond Parfaits.jpg" alt="Almond Vanilla Yogurt Parfait">
         <h2>Almond Vanilla Yogurt Parfait</h2>
         <div class="ingredients">
             <h3>Ingredients:</h3>
@@ -58,7 +78,7 @@
 
     <!-- Recipe 2 -->
     <div class="recipe">
-        <img src="cuban_breakfast_sandwich.jpg" alt="Cuban Breakfast Sandwich">
+        <img src="Breakfast Images/Cuban Breakfast Sandwich.jpg" alt="Cuban Breakfast Sandwich">
         <h2>Cuban Breakfast Sandwich</h2>
         <div class="ingredients">
             <h3>Ingredients:</h3>
@@ -74,7 +94,7 @@
 
     <!-- Recipe 3 -->
     <div class="recipe">
-        <img src="ham_swiss_omelet.jpg" alt="Ham and Swiss Omelet">
+        <img src="Breakfast Images/Ham and swiss Omlete.jpg" alt="Ham and Swiss Omelet">
         <h2>Ham and Swiss Omelet</h2>
         <div class="ingredients">
             <h3>Ingredients:</h3>
@@ -90,7 +110,7 @@
 
     <!-- Recipe 4 -->
     <div class="recipe">
-        <img src="spinach_mushroom_eggs.jpg" alt="Spinach Mushroom with Scrambled Eggs">
+        <img src="Breakfast Images/Spinach Mushroom.webp" alt="Spinach Mushroom with Scrambled Eggs">
         <h2>Spinach Mushroom with Scrambled Eggs</h2>
         <div class="ingredients">
             <h3>Ingredients:</h3>
@@ -106,7 +126,7 @@
 
     <!-- Recipe 5 -->
     <div class="recipe">
-        <img src="gingerbread_pancakes.jpg" alt="Gingerbread Pancakes">
+        <img src="Breakfast Images/Gingerbread Pancakes.jpg" alt="Gingerbread Pancakes">
         <h2>Gingerbread Pancakes</h2>
         <div class="ingredients">
             <h3>Ingredients:</h3>
@@ -120,8 +140,13 @@
                 <li>1 tablespoon butter, melted</li>
                 <li>1 teaspoon baking powder</li>
             </ul>
+        
         </div>
     </div>
+    <div class ="button-container">
+        <a href="lunch.html" class="button">Next</a>
+    </div>
+   
     <div class="back-home">
         <a href="index.html">Back Home</a>
     </div>
