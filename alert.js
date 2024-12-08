@@ -22,4 +22,7 @@ function showMessage6(){
     alert("This recipe takes 30 minutes to prepare!");
 }
 
+function showMessage7(){
+    alert("This recipe takes 5 minutes to prepare!");
+}
 

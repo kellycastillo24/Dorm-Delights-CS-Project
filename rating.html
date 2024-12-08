@@ -53,8 +53,12 @@
     </style>
 </head>
 <body>
+    <script src="rating.js"></script>
+
     <h1>Rate Our Recipes</h1>
-    <form>
+
+    
+    <form id="ratingForm"> 
         <div>
             <label for="recipe-name">Which recipe are you rating?</label>
             <input type="text" id="recipe-name" name="recipe-name" placeholder="Enter recipe name" required>
@@ -72,8 +76,11 @@
         <div>
             <label for="comments">Comments:</label>
             <textarea id="comments" name="comments" rows="4" placeholder="Write your feedback here..." required></textarea>
+            <button class="button" onclick="showMessage8()"> Submit Rating</button>
+
         </div>
-        <button type="submit">Submit Rating</button>
+
+
     </form>
 </body>
 </html>
