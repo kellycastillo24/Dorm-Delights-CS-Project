@@ -59,10 +59,32 @@
            text-align:right;
            margin-top:20px;
        }
+
+          
+       .time-button{
+            margin-top: 20px;
+            text-align: right;
+        }
+
+        .cook-time-button{
+            background-color: burlywood;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            padding: 10px 15px;
+            font-size: 14px;
+        }
+
+        .cook-time-button:hover{
+            background-color: brown;
+        }
+
     </style>
 </head>
 <body>
     <h1>Snack Recipes</h1>
+    <script src="alert.js"></script>
+
 
     <!-- Recipe 1 -->
     <div class="recipe">
@@ -78,6 +100,9 @@
                 <li>1/4 cup milk</li>
                 <li>1 teaspoon baking powder</li>
             </ul>
+            <div class="time-button">
+                <button class="cook-time-button" onclick="showMessage()"> Cook Time</button>
+            </div>
         </div>
     </div>
 
@@ -95,6 +120,9 @@
                 <li>1 teaspoon vanilla extract</li>
                 <li>1 teaspoon baking powder</li>
             </ul>
+            <div class="time-button">
+                <button class="cook-time-button" onclick="showMessage3()"> Cook Time</button>
+            </div>
         </div>
     </div>
 
@@ -109,7 +137,10 @@
                 <li>1/2 cup cream cheese</li>
                 <li>1/4 cup powdered sugar</li>
                 <li>1 cup assorted fruits (berries, kiwi, etc.)</li>
-            </ul>
+            </ul> 
+            <div class="time-button">
+                <button class="cook-time-button" onclick="showMessage5()"> Cook Time</button>
+            </div>
         </div>
     </div>
 
@@ -126,6 +157,9 @@
                 <li>1 tablespoon cocoa powder</li>
                 <li>1 teaspoon honey</li>
             </ul>
+            <div class="time-button">
+                <button class="cook-time-button" onclick="showMessage7()"> Cook Time</button>
+            </div>
         </div>
     </div>
     <div class ="button-container"></divlass>
